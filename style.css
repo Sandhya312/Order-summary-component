@@ -1,0 +1,129 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+body{
+    /* width:100%; */
+    display:flex;
+    background-color:hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: 100vw 45vh;
+    background-image:url('images/pattern-background-desktop.svg');
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    height: 100vh;
+
+
+}
+
+
+.card{
+    /* border: 2px solid black; */
+    background-color: white;
+    width: 20.5rem;
+    height: 34.313rem;
+     border-radius: 17px;
+     /* margin: 98px 0px; */
+     text-align: center;
+     padding:35px 35px; 
+     box-shadow: rgba(0, 0, 0, 0.082) 15px 15px 25px ;
+}
+.card>img{
+    width: 24.89rem;
+    position:relative;
+   bottom:36px;
+    height: 13rem;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+   right: 35px;
+  
+}
+.card h2{
+    font-size: 25px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    position: relative;
+    bottom:35px;
+    /* left:0px; */
+}
+.card p{
+    font-size: 15px;
+   color:hsl(224, 23%, 55%);
+   text-align-last: center;
+   
+}
+.para{
+    text-align:center;
+    position:relative;
+    bottom: 42px;
+}
+.left{
+    background-color: hsl(225, 100%, 98%);
+    width: 20.5rem;
+    height: 6rem;
+    position: relative;
+    bottom: 38px;
+    border-radius: 17px;
+    
+}
+.left img{
+    position:relative;
+    top:22px;
+    right:77px;
+}
+.left p{
+    position: relative;
+    font-weight: 700;
+    bottom:17px;
+    right:38px;
+
+}
+.left span{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    position: relative;
+    bottom:10px;
+    right:63px;
+
+}
+.right p{
+    color:hsl(245, 75%, 52%);
+    text-decoration:2px  underline;
+    font-weight:700;
+    position: relative;
+    bottom:113px;
+   left:110px;
+   cursor: pointer;
+}
+.right p:hover{
+    color:hsl(224, 23%, 55%);
+    text-decoration:none;
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    outline: none;
+    width: 20.5rem;
+    height: 2.8rem;
+    border-radius: 10px;
+    border-style: hidden;
+    color: white;
+    position: relative;
+    bottom: 60px;
+    box-shadow: hsl(224, 41%, 71%) 8px 8px 25px ;
+    cursor: pointer;
+}
+button:hover{
+    opacity:0.7;
+}
+.bottom p{
+    font-weight: 700;
+    position: relative;
+    bottom: 42px;
+    cursor: pointer;
+}
+.bottom p:hover{
+    color:hsl(223, 47%, 23%);
+}
+
